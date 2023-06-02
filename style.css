@@ -26,15 +26,23 @@ header {
 .flex-container {
   display: flex;
   flex-direction: row;
-  text-align: center;
+  align-items: stretch;
+}
+.flex-container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 .flex-item {
-  text-align: center;
+  /*text-align: center;*/
+  justify-content: left;
 } 
 
 .right-justify {
-  display: inline-block;
+  /*display: inline-block;*/
+  /*display: block;*/
+  text-align: left;
 }
 
 .center {
